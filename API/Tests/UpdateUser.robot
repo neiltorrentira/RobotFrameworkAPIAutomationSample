@@ -13,7 +13,7 @@ ${id_path}          $._id
 ${id}               6408c1310fd0d002b26cd113
 
 *** Test Cases ***
-API Test: Create User
+API Test: Update User By ID
     [Tags]    Smoke
     Create Session      updateUser          ${base_url}      disable_warnings=1
     ${headers}=         Create Dictionary   Content-Type=application/json
